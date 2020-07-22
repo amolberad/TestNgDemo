@@ -1,0 +1,18 @@
+<suite name="Login Demo Assignments">
+    <test name="logintest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="http://billing.scriptinglogic.net/"/>
+        <classes>
+            <class name="TestNGAssignmentLogin.LoginFirst"/>
+            <!--<class name="TestNGAssignmentLogin.LoginSecond"/>-->
+        </classes>
+    </test>
+   <!-- <test name="addRecord">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="http://ip2.scriptinglogic.net/"/>
+        <classes>
+            <class name="TestNGAssignmentLogin.LoginThird"/>
+        </classes>
+
+    </test>-->
+</suite>
